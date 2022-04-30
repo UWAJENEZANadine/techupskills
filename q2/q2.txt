@@ -1,0 +1,22 @@
+1.Filter and show the product that will be bought when you don't have much money I mean Cheap one
+
+{name: 'Book', price:5}
+
+
+2 . Filter and show the product that will be expensive in the array
+
+ {name: 'Computer', price:1000}
+
+
+ 3.Calculate the full price of all product combined
+
+ const item = [ {name: 'Bike', price:100} {name: 'TV', price:200},
+  {name: 'Album', price:10}, {name: 'Book', price:5}, 
+  {name: 'Phone', price:500}, {name: 'Computer', price:1000}, ]
+
+   price:100 + price:200 + price:10 + price:5 + price:500 + price:1000 =
+   total price 1815 
+
+   4.Calculate the full price of all product combined and remove product that are under the 10 dollar
+    price:100 + price:200 + price:10 + price:500 + price:1000
+     total price 1810
