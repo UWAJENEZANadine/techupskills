@@ -2,6 +2,7 @@ import "./App.css";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import { Button } from "antd";
+import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 
 function App() {
   return (
@@ -68,6 +69,9 @@ function App() {
                   well.Easy! Directly download, print or share the link to a PDF
                   with your colleagues
                 </p>
+                <ArrowCircleDownIcon /><span style={{opacity:"0.5"}}>Company profile.PDF</span> 
+                
+                
               </div>
             </div>
           </div>
